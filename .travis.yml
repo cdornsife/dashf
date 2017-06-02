@@ -1,0 +1,8 @@
+language: go
+go:
+ - 1.7
+
+script:
+ - diff -u <(echo -n) <(gofmt -d .)
+ - go tool vet .
+ - go test -v ./...
