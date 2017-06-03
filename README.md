@@ -11,4 +11,4 @@ DashF means the flag -f.  When a CLI wishes to accept a resource (filename/direc
 ## Doesn't Viper/envconfig/pflag do this?
 No. Viper and envconfig provide a great libraries for configuring your application. Viper and pflag can accept the input but provide no mechanism for processing the resource. 
 
-## [Try the example](example/README.md)
+## [Try the example](example/)
