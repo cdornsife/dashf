@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/cdornsife/dashf.svg?branch=master)](https://travis-ci.org/cdornsife/dashf)
 
-Unmarshall A file, STDIN or a URL into a golang struct.
+Unmarshall A file, STDIN or a URL into a golang struct. The supported formats are JSON and YAML. 
 
 ## What is DashF?
 
